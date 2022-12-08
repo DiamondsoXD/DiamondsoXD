@@ -1,0 +1,249 @@
+local library = {}
+function library:CreateWindow(name)
+    local UiLibray = Instance.new("ScreenGui")
+    local Topmain = Instance.new("Frame")
+    local container = Instance.new("Frame")
+    local DropShadowHolder = Instance.new("Frame")
+    local DropShadow = Instance.new("ImageLabel")
+    local DropShadowHolder_2 = Instance.new("Frame")
+    local DropShadow_2 = Instance.new("ImageLabel")
+    local UICorner = Instance.new("UICorner")
+    local Buttontab = Instance.new("Frame")
+    local UICorner_2 = Instance.new("UICorner")
+    local ScrollingFrame = Instance.new("ScrollingFrame")
+    local UICorner_3 = Instance.new("UICorner")
+local UIPadding = Instance.new("UIPadding")
+local UIGridLayout = Instance.new("UIGridLayout")
+local DropShadowHolder_3 = Instance.new("Frame")
+local DropShadow_3 = Instance.new("ImageLabel")
+local DropShadowHolder_4 = Instance.new("Frame")
+local DropShadow_4 = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+
+UiLibray.Name = "UiLibray"
+UiLibray.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+UiLibray.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Topmain.Name = "Topmain"
+Topmain.Parent = UiLibray
+Topmain.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Topmain.Position = UDim2.new(0.348155618, 0, 0.230406061, 0)
+Topmain.Size = UDim2.new(0, 600, 0, 50)
+
+container.Name = "container"
+container.Parent = Topmain
+container.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
+container.Position = UDim2.new(-0.000177714042, 0, 1.14706457, 0)
+container.Size = UDim2.new(0, 600, 0, 450)
+
+DropShadowHolder.Name = "DropShadowHolder"
+DropShadowHolder.Parent = container
+DropShadowHolder.BackgroundTransparency = 1.000
+DropShadowHolder.BorderSizePixel = 0
+DropShadowHolder.Size = UDim2.new(1, 0, 1, 0)
+DropShadowHolder.ZIndex = 0
+
+DropShadow.Name = "DropShadow"
+DropShadow.Parent = DropShadowHolder
+DropShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow.BackgroundTransparency = 1.000
+DropShadow.BorderSizePixel = 0
+DropShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
+DropShadow.Size = UDim2.new(1, 47, 1, 47)
+DropShadow.ZIndex = 0
+DropShadow.Image = "rbxassetid://6015897843"
+DropShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow.ImageTransparency = 0.500
+DropShadow.ScaleType = Enum.ScaleType.Slice
+DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
+
+DropShadowHolder_2.Name = "DropShadowHolder"
+DropShadowHolder_2.Parent = DropShadowHolder
+DropShadowHolder_2.BackgroundTransparency = 1.000
+DropShadowHolder_2.BorderSizePixel = 0
+DropShadowHolder_2.Size = UDim2.new(1, 0, 1, 0)
+DropShadowHolder_2.ZIndex = 0
+
+DropShadow_2.Name = "DropShadow"
+DropShadow_2.Parent = DropShadowHolder_2
+DropShadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow_2.BackgroundTransparency = 1.000
+DropShadow_2.BorderSizePixel = 0
+DropShadow_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+DropShadow_2.Size = UDim2.new(1, 47, 1, 47)
+DropShadow_2.ZIndex = 0
+DropShadow_2.Image = "rbxassetid://6014261993"
+DropShadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow_2.ImageTransparency = 0.500
+DropShadow_2.ScaleType = Enum.ScaleType.Slice
+DropShadow_2.SliceCenter = Rect.new(49, 49, 450, 450)
+
+UICorner.Parent = container
+
+Buttontab.Name = "Buttontab"
+Buttontab.Parent = container
+Buttontab.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Buttontab.Position = UDim2.new(0.0133333337, 0, 0.111111112, 0)
+Buttontab.Size = UDim2.new(0, 585, 0, 387)
+
+UICorner_2.Parent = Buttontab
+
+ScrollingFrame.Parent = Buttontab
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.Size = UDim2.new(0, 292, 0, 387)
+
+UICorner_3.Parent = TextButton
+
+UIPadding.Parent = TextButton
+UIPadding.PaddingLeft = UDim.new(0, 40)
+
+UIGridLayout.Parent = ScrollingFrame
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellSize = UDim2.new(0,350, 0, 50)
+
+DropShadowHolder_3.Name = "DropShadowHolder"
+DropShadowHolder_3.Parent = Topmain
+DropShadowHolder_3.BackgroundTransparency = 1.000
+DropShadowHolder_3.BorderSizePixel = 0
+DropShadowHolder_3.Size = UDim2.new(1, 0, 1, 0)
+DropShadowHolder_3.ZIndex = 0
+
+DropShadow_3.Name = "DropShadow"
+DropShadow_3.Parent = DropShadowHolder_3
+DropShadow_3.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow_3.BackgroundTransparency = 1.000
+DropShadow_3.BorderSizePixel = 0
+DropShadow_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+DropShadow_3.Size = UDim2.new(1, 47, 1, 47)
+DropShadow_3.ZIndex = 0
+DropShadow_3.Image = "rbxassetid://6015897843"
+DropShadow_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow_3.ImageTransparency = 0.500
+DropShadow_3.ScaleType = Enum.ScaleType.Slice
+DropShadow_3.SliceCenter = Rect.new(49, 49, 450, 450)
+
+DropShadowHolder_4.Name = "DropShadowHolder"
+DropShadowHolder_4.Parent = DropShadowHolder_3
+DropShadowHolder_4.BackgroundTransparency = 1.000
+DropShadowHolder_4.BorderSizePixel = 0
+DropShadowHolder_4.Size = UDim2.new(1, 0, 1, 0)
+DropShadowHolder_4.ZIndex = 0
+
+DropShadow_4.Name = "DropShadow"
+DropShadow_4.Parent = DropShadowHolder_4
+DropShadow_4.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow_4.BackgroundTransparency = 1.000
+DropShadow_4.BorderSizePixel = 0
+DropShadow_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+DropShadow_4.Size = UDim2.new(1, 47, 1, 47)
+DropShadow_4.ZIndex = 0
+DropShadow_4.Image = "rbxassetid://6014261993"
+DropShadow_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow_4.ImageTransparency = 0.500
+DropShadow_4.ScaleType = Enum.ScaleType.Slice
+DropShadow_4.SliceCenter = Rect.new(49, 49, 450, 450)
+
+UICorner_4.Parent = Topmain
+
+Title.Name = "Title"
+Title.Parent = Topmain
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.0116666667, 0, 0.0611111149, 0)
+Title.Size = UDim2.new(0, 200, 0, 42)
+Title.Font = Enum.Font.Roboto
+Title.Text = name
+Title.TextColor3 = Color3.fromRGB(212, 212, 212)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+Title.TextXAlignment = Enum.TextXAlignment.Left
+
+local Uilibrary = {}
+function Uilibrary:CreateButton(text, callback)
+    local callback =  callback or function() end
+    local TextButton = Instance.new("TextButton")
+
+    TextButton.Parent = ScrollingFrame
+    TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    TextButton.Position = UDim2.new(0.106164381, 0, 0, 0)
+    TextButton.Size = UDim2.new(0, 200, 0, 50)
+    TextButton.Font = Enum.Font.SourceSans
+    TextButton.Text = text
+    TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+    TextButton.TextScaled = true
+    TextButton.TextSize = 14.000
+    TextButton.TextWrapped = true
+    TextButton.TextXAlignment = Enum.TextXAlignment.Right
+    TextButton.MouseButton1Down:Connect(function()
+        pcall(callback)
+    end)
+    function Uilibrary:CreateToggle(text, callback)
+    local actions = {}
+    text = text or "New toggle"
+    callback = callback or function() end
+    local enabled = false
+    local Toggle = Instance.new("TextLabel")
+    local Background = Instance.new("TextButton")
+    local UICorner = Instance.new("UICorner")
+    local Onofftoggled = Instance.new("TextButton")
+    local UICorner_2 = Instance.new("UICorner")
+
+    Toggle.Name = "Toggle"
+    Toggle.Parent = ScrollingFrame
+ 
+    Toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Toggle.BackgroundTransparency = 1.000
+    Toggle.Size = UDim2.new(0, 200, 0, 50)
+    Toggle.Font = Enum.Font.Roboto
+    Toggle.Text = text
+    Toggle.TextColor3 = Color3.fromRGB(255, 255, 255)
+    Toggle.TextSize = 30.000
+    Toggle.TextXAlignment = Enum.TextXAlignment.Left
+
+    Background.Name = "Background"
+    Background.Parent = Toggle
+    Background.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    Background.Position = UDim2.new(0.744000018, 0, 0.200000003, 0)
+    Background.Size = UDim2.new(0, 64, 0, 30)
+    Background.Font = Enum.Font.SourceSans
+    Background.TextColor3 = Color3.fromRGB(0, 0, 0)
+    Background.TextSize = 14.000
+    Background.TextTransparency = 1.000
+
+    UICorner.Parent = Background
+
+    Onofftoggled.Name = "Onofftoggled"
+    Onofftoggled.Parent = Background
+    Onofftoggled.BackgroundColor3 = Color3.fromRGB(255, 74, 29)
+    Onofftoggled.Position = UDim2.new(-0.004,0,0)
+    Onofftoggled.Size = UDim2.new(0, 30, 0, 30)
+    Onofftoggled.Font = Enum.Font.SourceSans
+    Onofftoggled.TextColor3 = Color3.fromRGB(0, 0, 0)
+    Onofftoggled.TextSize = 14.000
+    Onofftoggled.TextTransparency = 1.000
+
+    UICorner_2.CornerRadius = UDim.new(0, 6)
+    UICorner_2.Parent = Onofftoggled
+    local function fire()
+        enabled = not enabled
+  Onofftoggled:TweenPosition(enabled and UDim2.new(0.528,0,0) or UDim2.new(-0.004,0,0), "InOut", "Linear", 0.1)
+  Onofftoggled.BackgroundColor3 = enabled and Color3.fromRGB(46,255,88) or Color3.fromRGB(255,55,37)
+        pcall(callback, enabled)
+    end
+    Onofftoggled.MouseButton1Down:Connect(fire)
+    function actions:Set(arg)
+    
+ Onofftoggled:TweenPosition(enabled and UDim2.new(0.528,0,0) or UDim2.new(-0.004,0,0), "InOut", "Linear", 0.1)
+Onofftoggled.BackgroundColor3 = enabled and Color3.fromRGB(46,255,88) or Color3.fromRGB(255,55,37)
+        pcall(callback, arg)
+    end
+end
+end
+return Uilibrary
+end
+
+l
